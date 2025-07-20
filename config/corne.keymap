@@ -67,6 +67,15 @@
                                                 &trans             &trans            &trans              &trans            &trans                  &trans
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans                &trans                &trans  &trans
+&trans  &trans                &trans                &trans                &trans                &trans                  &trans                &trans                &trans                &trans                &trans  &trans
+&sl 4   &kp LA(LS(NUMBER_1))  &kp LS(LA(NUMBER_2))  &kp LS(LA(NUMBER_3))  &kp LS(LA(NUMBER_4))  &kp LS(LA(NUMBER_5))    &kp LS(LA(NUMBER_6))  &kp LS(LA(NUMBER_7))  &kp LS(LA(NUMBER_8))  &kp LS(LA(NUMBER_9))  &trans  &trans
+                                                    &trans                &trans                &trans                  &trans                &trans                &trans
+            >;
+        };
     };
 
     conditional_layers {
